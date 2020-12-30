@@ -1,0 +1,21 @@
+{
+    "name": "vladzur/standalone",
+    "description": "Standalone Laravel Worker",
+    "authors": [
+        {
+            "name": "vladzur",
+            "email": "vladzur@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/queue": "^8.20",
+        "predis/predis": "^1.1",
+        "illuminate/redis": "^8.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Standalone\\Jobs\\": "src/Jobs",
+            "Standalone\\Utils\\": "src/Utils"
+        }
+    }
+}
