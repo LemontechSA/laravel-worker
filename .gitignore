@@ -1,2 +1,4 @@
-vendor
+/vendor
+.env
+.phpunit.result.cache
 docker-compose.yml
