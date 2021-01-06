@@ -26,8 +26,3 @@ networks:
   ttb-queue:
     external:
      name: ttb-queue
-
-#Volumes
-volumes:
-  admin-dbdata:
-    driver: local
